@@ -1,6 +1,6 @@
 # NPC Distill 🎯
 
-> 把零散的语料蒸馏成可演练的人物数字分身,辅助汇报前的预演。
+> 把零散的语料蒸馏成可演练的 npc,辅助汇报前的预演。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skill Standard](https://img.shields.io/badge/agentskills.io-compatible-blue)](https://agentskills.io)
@@ -9,8 +9,11 @@
 
 ## 这是什么
 
-一个**完全本地化**的 Skill,让 AI Agent 帮你构建特定人物的"数字分身",
-用于在向真人沟通前做预演。
+**这是一个专门用来"蒸馏 npc"的 Skill。**
+
+所谓 npc,就是你工作里绕不开、又需要反复揣摩的那个人——直属上级、合作方、关键客户。
+本 Skill 让 AI Agent 帮你把零散语料(聊天记录、邮件、会议纪要)**蒸馏**成一个可演练的 npc,
+用于在向真人沟通前做预演。一句话:**输入语料,产出一个能陪你过招的 npc。**
 
 **应用场景**:
 - 🎯 **压力测试方案**:模拟 NPC 挑刺,提前发现弱点
@@ -66,7 +69,7 @@ pip install -r scripts/requirements.txt
 
 打开你的 Agent,直接说:
 
-> "我想做一个数字分身。"
+> "我想蒸馏一个 npc。"
 
 Skill 会引导你:
 1. 选择 memory 文件位置(默认 `~/npc-distill/`)
